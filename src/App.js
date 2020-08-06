@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Counter from './Counter';
 import View from './View';
+import AddItem from './AddItem';
 
 function App() {
   // const [text, setText] = useState();
@@ -11,6 +12,8 @@ function App() {
     <div>
       <View />
       <Counter />
+      <br />
+      <AddItem />
     </div>
   )
 
